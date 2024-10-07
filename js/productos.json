@@ -1,0 +1,162 @@
+[
+    {
+        "id": "botas-01",
+        "articulo": "Botas 01",
+        "imagen": "./img/botas/img01.png",
+        "categoria": {
+            "nombre": "Botas",
+            "id": "botas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "botas-02",
+        "articulo": "Botas 02",
+        "imagen": "./img/botas/img02.png",
+        "categoria": {
+            "nombre": "Botas",
+            "id": "botas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "botas-03",
+        "articulo": "Botas 03",
+        "imagen": "./img/botas/img03.png",
+        "categoria": {
+            "nombre": "Botas",
+            "id": "botas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "botas-04",
+        "articulo": "Botas 04",
+        "imagen": "./img/botas/img04.png",
+        "categoria": {
+            "nombre": "Botas",
+            "id": "botas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "botas-05",
+        "articulo": "Botas 05",
+        "imagen": "./img/botas/img05.png",
+        "categoria": {
+            "nombre": "Botas",
+            "id": "botas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "botas-06",
+        "articulo": "Botas 06",
+        "imagen": "./img/botas/img06.png",
+        "categoria": {
+            "nombre": "Botas",
+            "id": "botas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "botas-07",
+        "articulo": "Botas 07",
+        "imagen": "./img/botas/img07.png",
+        "categoria": {
+            "nombre": "Botas",
+            "id": "botas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "botas-08",
+        "articulo": "Botas 08",
+        "imagen": "./img/botas/img08.png",
+        "categoria": {
+            "nombre": "Botas",
+            "id": "botas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "zapatillas-09",
+        "articulo": "Zapatillas 09",
+        "imagen": "./img/zapatillas/img09.png",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "zapatillas-10",
+        "articulo": "Zapatillas 10",
+        "imagen": "./img/zapatillas/img10.png",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "zapatillas-11",
+        "articulo": "Zapatillas 11",
+        "imagen": "./img/zapatillas/img11.png",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "zapatillas-12",
+        "articulo": "Zapatillas 12",
+        "imagen": "./img/zapatillas/img12.png",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "zapatillas-13",
+        "articulo": "Zapatillas 13",
+        "imagen": "./img/zapatillas/img13.png",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "zapatillas-14",
+        "articulo": "Zapatillas 14",
+        "imagen": "./img/zapatillas/img14.png",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "zapatillas-15",
+        "articulo": "Zapatillas 15",
+        "imagen": "./img/zapatillas/img15.png",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 100
+    },
+    {
+        "id": "zapatillas-16",
+        "articulo": "Zapatillas 16",
+        "imagen": "./img/zapatillas/img16.png",
+        "categoria": {
+            "nombre": "Zapatillas",
+            "id": "zapatillas"
+        },
+        "precio": 100
+    }
+]

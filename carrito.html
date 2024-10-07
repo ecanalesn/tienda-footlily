@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootLily</title>
+
+    <!-- Enlace a bibliotecas externas -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    
+    <!-- Enlace a la hoja de estilos -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <!-- Header para móviles -->
+        <header class="header-mobile">
+            <h1 class="logo">FOOTLILY</h1>
+            <!-- Botón para abrir el menú en dispositivos móviles -->
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+
+        <!-- Barra lateral con menú de navegación -->
+        <aside>
+            <!-- Botón para cerrar el menú en móviles -->
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+
+            <!-- Logo -->
+            <header>
+                <h1 class="logo">FOOTLILY</h1>
+            </header>
+
+            <!-- Navegación lateral con enlaces -->
+            <nav>
+                <ul>
+                    <li>
+                        <!-- Botón para volver a la página de productos -->
+                        <a class="boton-menu boton-volver" href="./index.html">
+                            <i class="bi bi-arrow-return-left"></i> Seguir comprando
+                        </a>
+                    </li>
+                    <li>
+                        <!-- Botón para acceder al carrito de compras -->
+                        <a class="boton-menu boton-carrito active" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Footer -->
+            <footer>
+                <p class="texto-footer">© 2024 FootLily</p>
+            </footer>
+        </aside>
+
+        <!-- Contenido principal de la página -->
+        <main>
+            <!-- Título principal del carrito -->
+            <h2 class="titulo-principal">Carrito</h2>
+
+            <!-- Contenedor principal del carrito -->
+            <div class="contenedor-carrito">
+                
+                <!-- Mensaje para indicar que el carrito está vacío -->
+                <p id="carrito-vacio" class="carrito-vacio">No tienes ningún artículo en tu carrito. <i class="bi bi-emoji-frown"></i></p>
+
+                <!-- Contenedor para mostrar los productos del carrito que será rellenado por javascript -->
+                <div id="carrito-productos" class="carrito-productos disabled">
+
+                </div>
+
+                <!-- Contenedor de acciones del carrito (vaciar o comprar) -->
+                <div id="carrito-acciones" class="carrito-acciones disabled">
+                    <div class="carrito-acciones-izquierda">
+                        <!-- Botón para vaciar el carrito -->
+                        <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
+                    </div>
+                    <div class="carrito-acciones-derecha">
+                        <!-- Mostrar el total de la compra -->
+                        <div class="carrito-acciones-total">
+                            <p>Total:</p>
+                            <p id="total"></p>
+                        </div>
+                        <!-- Botón para realizar la compra -->
+                        <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
+                    </div>
+                </div>
+
+                <!-- Mensaje de confirmación después de la compra -->
+                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts externos -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- Scripts locales para el carrito y menú -->
+    <script src="./js/carrito.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
